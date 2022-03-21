@@ -1,3 +1,46 @@
 .App {
-  /* text-align: center; */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 600px;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  border: 2px solid black;
+  background-color: rgb(247, 247, 247);
+  flex-direction: column;
+  border-radius: 20px;
+  justify-content: space-between;
+}
+
+.button {
+  background-color: rgb(218, 218, 218);
+  padding: 10px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.footer {
+  margin-bottom: 20px;
+}
+
+.button__actions {
+  background-color: rgb(255, 226, 198);
+  padding: 10px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.input__box {
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.input__box > input {
+  /* border: none; */
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px;
 }
